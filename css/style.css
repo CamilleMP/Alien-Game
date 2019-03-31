@@ -1,0 +1,165 @@
+
+/*---------Header--------*/
+header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #26273C;
+    box-shadow:3px 7px 12px #999;
+    position: relative;
+}
+header img{
+    width: 140px;
+}
+header a h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    text-decoration: none;
+    /*font-family: 'Indie Flower', cursive;*/
+    /*font-family: 'Pacifico', cursive;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    /*font-family: 'Merienda', cursive;*/
+    font-size: 52px;
+}
+header a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*---------Main--------*/
+
+main{
+    display: flex;
+    height:45em;
+}
+
+#left{
+    flex:1;
+    float:left;
+    background-color: #0C93B3;
+    color: white;
+}
+
+#middle{
+    flex:6;
+}
+
+#right{
+    flex:1;
+    float:right;
+    background-color: #0C93B3;
+    color: white;
+}
+
+#left, #right{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+/*---------Left--------*/
+
+#left ul{
+    margin-left:0;
+    padding: 0 10px; 
+}
+
+#left li{
+    font-family: 'Amatic SC', cursive;
+    list-style-type: none; 
+    padding: 10px 7px;
+    border-bottom: 1px solid #26273C;
+}
+
+#left li h2{
+    font-size: 40px;
+}
+
+#left li .menu{
+    display:block;
+    color: white;
+    font-size: 35px;
+}
+
+#left li a:hover{
+    display:block;
+    color: white;
+    text-decoration: none;
+    background-color: darkturquoise;
+    font-size: 35px;
+}
+
+/*---------Right--------*/
+
+#right h2{
+    font-family: 'Amatic SC', cursive;
+    border: 1px solid grey;
+    background-color: rgb(53, 54, 75);
+    box-shadow:3px 7px 12px rgb(90, 85, 85);
+    text-shadow: 1px 1px 2px beige;
+    font-size: 30px;
+}
+
+#right #letter{
+    font-family: 'Amatic SC', cursive;
+    padding:10px;
+    font-size: 25px;
+}
+
+#right #newsletter{
+    color: rgb(134, 49, 74);
+    text-decoration: underline;
+    font-weight: bold;}
+
+#social_media a img{
+    width: 25px;
+    margin: 15px 5px;
+}
+
+#supranews{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#supernews{
+    border: 2px solid rgb(43, 43, 83);
+}
+
+#news{
+    width: 10em;
+    height: 15em;
+    border: 1px solid rgb(43, 43, 83);
+    margin: 3px;
+    background-color: white;
+    padding: 9px 12px;
+    overflow-y: scroll;
+}
+
+.news_article{
+    border-bottom:1px solid black;
+    margin-bottom: 10px;
+}
+
+.news_article h3 {
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.news_article #dates{
+    font-size: 8px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.news_article p{
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 9px;
+    text-align: left;
+}
+
+
+
